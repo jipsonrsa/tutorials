@@ -16,7 +16,7 @@ namespace FamilyMVC.Controllers
         private FamilyMVCContext db = new FamilyMVCContext();
 
         // GET: Relationships
-        [Authorize(Roles ="Admin")]
+        //[Authorize(Roles ="Admin")]
         public async Task<ActionResult> Index()
         {
             return View(await db.Relationships.ToListAsync());
