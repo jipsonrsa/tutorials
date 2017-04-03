@@ -31,7 +31,7 @@ namespace Relations.Models
             }
         }
         //public virtual ICollection<Members> Relatives { get; set; }
-        public virtual ICollection<MembersRelationships> MemberMembersRelationships { get; set; }
-        public virtual ICollection<MembersRelationships> RelativeMembersRelationships { get; set; }
+        public virtual ICollection<MemberRelationships> MemberMemberRelationships { get; set; }
+        public virtual ICollection<MemberRelationships> RelativeMemberRelationships { get; set; }
     }
 }

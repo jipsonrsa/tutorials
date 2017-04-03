@@ -22,19 +22,19 @@ namespace FamilyMVC.Models
         public virtual Members Relatives { get; set; }
         public virtual Relationships Relationships { get; set; }
     }
-    public class Context :FamilyMVCContext
-    {
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<MembersRelationships>()
-                .HasRequired(m => m.Members)
-                .WithMany(t => t.MemberMembersRelationships)
-                .HasForeignKey(m => m.MembersID)
-                .WillCascadeOnDelete(false);
-            modelBuilder.Entity<MembersRelationships>()
-                .HasRequired(m => m.Relatives)
-                .WithMany(t => t.RelativeMembersRelationships)
-                .HasForeignKey(m => m.RelativesID)
-                .WillCascadeOnDelete(false);        }
-    }
+    //public class Context :FamilyMVCContext
+    //{
+    //    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    //    {
+    //        modelBuilder.Entity<MembersRelationships>()
+    //            .HasRequired(m => m.Members)
+    //            .WithMany(t => t.MemberMembersRelationships)
+    //            .HasForeignKey(m => m.MembersID)
+    //            .WillCascadeOnDelete(false);
+    //        modelBuilder.Entity<MembersRelationships>()
+    //            .HasRequired(m => m.Relatives)
+    //            .WithMany(t => t.RelativeMembersRelationships)
+    //            .HasForeignKey(m => m.RelativesID)
+    //            .WillCascadeOnDelete(false);        }
+    //}
 }

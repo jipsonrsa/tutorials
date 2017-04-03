@@ -21,7 +21,7 @@ namespace Relations.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("FamilyTreeContext", throwIfV1Schema: false)
         {
         }
 
