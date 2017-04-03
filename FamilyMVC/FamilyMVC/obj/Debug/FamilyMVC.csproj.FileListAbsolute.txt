@@ -82,3 +82,6 @@ c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\Fam
 c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.pdb
 C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.Migrations.FirstMigration.resources
 C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.csproj.GenerateResource.Cache
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.csprojResolveAssemblyReference.cache
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.Migrations.FirstMigration.resources
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\FamilyMVC\FamilyMVC\obj\Debug\FamilyMVC.csproj.GenerateResource.Cache

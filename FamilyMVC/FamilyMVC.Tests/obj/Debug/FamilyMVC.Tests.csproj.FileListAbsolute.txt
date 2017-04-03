@@ -54,3 +54,4 @@ c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\Fam
 c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC.Tests\obj\Debug\FamilyMVC.Tests.csprojResolveAssemblyReference.cache
 c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC.Tests\obj\Debug\FamilyMVC.Tests.dll
 c:\users\f28232\documents\visual studio 2015\Projects\lab\tutorial\FamilyMVC\FamilyMVC.Tests\obj\Debug\FamilyMVC.Tests.pdb
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\FamilyMVC\FamilyMVC.Tests\obj\Debug\FamilyMVC.Tests.csprojResolveAssemblyReference.cache
