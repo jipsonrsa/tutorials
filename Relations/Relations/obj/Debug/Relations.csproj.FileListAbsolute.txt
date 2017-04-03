@@ -162,3 +162,5 @@ C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Re
 C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Relations\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Relations\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Relations\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Relations\obj\Debug\Relations.Migrations.InitialCreate.resources
+C:\Users\f28232\Documents\Visual Studio 2015\Projects\lab\tutorials\Relations\Relations\obj\Debug\Relations.csproj.GenerateResource.Cache
