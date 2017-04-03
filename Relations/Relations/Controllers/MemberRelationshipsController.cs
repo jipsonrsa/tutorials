@@ -40,7 +40,7 @@ namespace Relations.Controllers
         // GET: MemberRelationships/Create
         public ActionResult Create()
         {
-            ViewBag.MembersID = new SelectList(db.Members, "Id", "FulltName");
+            ViewBag.MembersID = new SelectList(db.Members, "Id", "FullName");
             ViewBag.ReationshpsID = new SelectList(db.Relationships, "Id", "Kind");
             ViewBag.RelativesID = new SelectList(db.Members, "Id", "FullName");
             return View();
@@ -55,7 +55,13 @@ namespace Relations.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 db.MembersRelationships.Add(memberRelationships);
+                db.SaveChanges();
+                // Section to create reverse relationship
+                Relationships relationshipDetails = db.Relationships.Find(memberRelationships.ReationshpsID);
+                MemberRelationships reverseRelationship = new MemberRelationships { MembersID = memberRelationships.RelativesID, ReationshpsID = (int)relationshipDetails.ReverseRelationshipId, RelativesID = memberRelationships.MembersID };
+                db.MembersRelationships.Add(reverseRelationship);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
